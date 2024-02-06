@@ -1,4 +1,3 @@
-Certainly! Here's the text divided into sections suitable for a GitHub README:
 Video to MP3 Conversion Workflow
 Overview
 
