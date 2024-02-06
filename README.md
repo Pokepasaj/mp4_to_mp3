@@ -22,7 +22,8 @@
         It sends an email to the client, notifying them that the MP3 conversion is complete and ready for download.
 
     Client Download:
-        The client, using a unique ID acquired from the notification along with JWT authentication, requests the MP3 download via the API gateway.
+        The client, using a unique ID acquired from the notification along with JWT authentication, requests the MP3 download via
+        the API gateway.
 
     API Gateway:
         The API gateway retrieves the MP3 from MongoDB.
