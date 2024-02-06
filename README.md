@@ -1,8 +1,8 @@
-Video to MP3 Conversion Workflow
-Overview
+                                    Video to MP3 Conversion Workflow
+                                                Overview
 
-This document outlines the workflow for converting uploaded videos to MP3 format and serving them to clients.
-Workflow Steps
+    This document outlines the workflow for converting uploaded videos to MP3 format and serving them to clients.
+    Workflow Steps
 
     User Uploads Video:
         When a user uploads a video, the request is sent to our gateway.
@@ -28,7 +28,8 @@ Workflow Steps
         The API gateway retrieves the MP3 from MongoDB.
         It serves the MP3 file to the client for download.
 
-Usage
+                                            
+                                            Usage
 
     Users can upload videos for conversion to MP3 format through the provided interface.
     Upon successful conversion, users receive an email notification with a link to download the MP3 file.
