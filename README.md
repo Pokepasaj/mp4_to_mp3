@@ -1,17 +1,18 @@
                                 Video to MP3 Conversion Workflow
-                                            Overview
+                                        Overview
 
     This document outlines the workflow for converting uploaded videos to MP3 format
     and serving them to clients.
         
-                                            Workflow Steps
+                                        Workflow Steps
 
     User Uploads Video:
         When a user uploads a video, the request is sent to our gateway.
 
     Request Handling:
         Our gateway stores the request in MongoDB.
-        A message is placed on our queue (RabbitMQ), signaling downstream services about the video to be processed.
+        A message is placed on our queue (RabbitMQ), signaling downstream services about the
+        video to be processed.
 
     Conversion Service:
         The video-to-MP3 converter service consumes messages from the queue.
