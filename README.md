@@ -4,7 +4,7 @@
     This document outlines the workflow for converting uploaded videos to MP3 format
     and serving them to clients.
         
-                                        Workflow Steps
+                                            Workflow Steps
 
     User Uploads Video:
         When a user uploads a video, the request is sent to our gateway.
